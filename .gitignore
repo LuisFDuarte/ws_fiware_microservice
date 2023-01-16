@@ -1,4 +1,3 @@
 docker-compose.yml
 keys.env
 ./images
-*.pyc
