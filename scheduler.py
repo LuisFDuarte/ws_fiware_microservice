@@ -18,6 +18,9 @@ API_KEY = str(os.getenv("API_KEY"))
 SERVER = str(os.getenv("SERVER")) # 200.3.144.214 10.61.3.135
 ID = str(os.getenv("ID"))
 
+# Creating the Rocketry app
+app = Rocketry(config={"task_execution": "async"})
+
 def get_meteorological_data():
     """
     Retrieve the meteorological data from the API.
